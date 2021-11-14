@@ -16,7 +16,7 @@ class Create extends Component {
     }
 
     handleSubmit(event) {
-        console.log("Name: " +this.state.Title+
+        alert("Name: " +this.state.Title+
         " Year: " + this.state.Year +
         "Poster: " + this.state.Poster);
 
